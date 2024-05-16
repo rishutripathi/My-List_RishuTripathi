@@ -1,10 +1,12 @@
 import express from 'express';
 import mongoose from 'mongoose';
 import myListRoutes from './routes/myList.routes';
-
+import dotenv from 'dotenv';
+dotenv.config()
 const app = express();
+
 const PORT = process.env.PORT || 3000;
-const MONGO_URI = 'mongodb://localhost:27017/my-list-db';
+const MONGO_URI: string | any = process.env.MONGODB_URI;
 
 app.use(express.json());
 app.use('/mylist', myListRoutes);
