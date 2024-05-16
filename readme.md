@@ -32,7 +32,7 @@ Create a .env file in the project root and configure the following environment v
 
 
 PORT=3000
-MONGO_URI=<your_mongodb_connection_uri>
+MONGO_URI=<mongodb_connection_uri>
 Run the application:
 
 
