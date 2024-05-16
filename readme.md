@@ -1,4 +1,5 @@
 My List Feature Backend
+
 This repository contains the backend implementation for the "My List" feature of an OTT (Over-The-Top) platform. The backend is responsible for managing user lists of favorite movies and TV shows.
 
 Table of Contents
@@ -41,9 +42,7 @@ This will start the server at http://localhost:8000.
 Project Structure
 The project structure is organized as follows:
 
-css
-Copy code
-my-list-feature-backend/
+`my-list-feature-backend/
 ├── src/
 │   ├── controllers/
 │   ├── models/
@@ -53,7 +52,7 @@ my-list-feature-backend/
 ├── tests/
 ├── .env
 ├── package.json
-└── tsconfig.json
+└── tsconfig.json`
 src/: Contains source code for controllers, models, routes, and the main application file.
 tests/: Contains test files for integration testing.
 .env.example: Example environment file template.
